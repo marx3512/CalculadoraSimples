@@ -1,0 +1,42 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: aquamarine;
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+h1{
+    font-size: 5rem;
+    justify-self: center;
+    grid-column: 2 / 3;
+}
+
+ul{
+    display: grid;
+}
+
+li{
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style-type: none;
+}
+
+.Calcular{
+    background-color: white;
+    border: royalblue solid 5px;
+    border-radius: 0px 25px 0px 25px;
+    margin: 10px;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.Inputs{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
